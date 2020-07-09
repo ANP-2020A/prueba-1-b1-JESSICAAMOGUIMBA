@@ -19,7 +19,7 @@ class CreateProductsTable extends Migration
             $table->string('code');
             $table->double('price');
             $table->enum('status', ['active', 'deleted']);
-            $table->text('body');
+
 
             $table->timestamps();
         });
